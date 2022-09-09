@@ -1,0 +1,14 @@
+#about {
+  &>div {
+    min-height: 100vh;
+  }
+
+  .about-1 {
+    background-color: brown;
+    color: white;
+  }
+  
+  .about-2 {
+    background-color: burlywood;
+  }
+}
