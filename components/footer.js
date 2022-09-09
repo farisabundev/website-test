@@ -7,6 +7,7 @@ const Footer = () => {
 
   const handleBtnPhoneNumber = () => {
     setPhoneNumber(phoneNumberInput);
+    setPhoneNumberInput("");
   };
 
   return (

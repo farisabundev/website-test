@@ -4,9 +4,9 @@ import Footer from "./footer";
 
 const Layout = (props) => {
   return (
-    <div className="layout">
+    <div className="layout spacer-header">
       <Navbar />
-      <div className="container-fluid layout-full-height">
+      <div className="container-fluid">
         {props.children}
       </div>
       <Footer />

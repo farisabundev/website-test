@@ -11,9 +11,7 @@ export default function AboutPage() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Layout>
-        <About />
-      </Layout>
+      <About />
     </div>
   );
 }

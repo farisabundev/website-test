@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand" href="#" onClick={() => handleClick("/")}>
           Website Test
         </a>
         <button
